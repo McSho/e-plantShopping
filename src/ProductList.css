@@ -49,6 +49,16 @@ body {
     text-align: center; /* Centers the Plants link within its own container */
 }
 
+.category-title {
+    text-align: center;  /* Center the text */
+    font-size: 24px;  /* Increase font size */
+    font-weight: bold;  /* Make it bold */
+    border-top: 2px solid #000;  /* Add top line */
+    border-bottom: 2px solid #000;  /* Add bottom line */
+    padding: 10px 0;  /* Add some padding */
+    margin: 20px 0;  /* Add margin */
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
