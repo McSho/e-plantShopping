@@ -39,6 +39,16 @@ body {
    
 }
 
+.cart-icon {
+    display: flex;
+    align-items: center;
+}
+
+.center-plants-link {
+    flex-grow: 1; /* This ensures that the Plants link takes up any available space */
+    text-align: center; /* Centers the Plants link within its own container */
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
